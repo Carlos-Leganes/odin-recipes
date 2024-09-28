@@ -1,16 +1,40 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;    
+}
+
+a, b {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:visited {
+    color: black;
 }
 
 h1 {
-    background-color: #55dd55;
-    font-weight: bold;    
+    background-color: #88dd88;
+    font-weight: bold; 
+}
+
+h2, strong {
+    padding-bottom: 0;
+    text-decoration: underline; 
 }
 
 li {
-    background-color: #ffdddd;
+    background-color: #ffe4c4;
+    padding: 5px;
 }
 
 #cursiva {
     font-style: oblique;
+}
+
+img {
+    border: 2px solid black;
+    padding: 0;
+    margin-top: 10px;
 }
