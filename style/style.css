@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #55dd55;
+    font-weight: bold;    
+}
+
+li {
+    background-color: #ffdddd;
+}
+
+#cursiva {
+    font-style: oblique;
+}
