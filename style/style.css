@@ -1,27 +1,39 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 10px;    
+    padding: 10px;
 }
 
-a, b {
+a {
+    display: inline-block;
     text-decoration: none;
-    padding: 0;
     margin: 0;
+    background-color: #88dd88;
 }
 
 a:visited {
     color: black;
 }
 
-h1 {
-    background-color: #88dd88;
-    font-weight: bold; 
+a:hover {
+    background-color: #509250;
+    color: white;
 }
 
-h2, strong {
+b {
+    padding: 0;
+}
+
+h1 {
+    background-color: #88dd88;
+    font-weight: bold;
+    width: 500px;
+}
+
+h2,
+strong {
     padding-bottom: 0;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 li {
