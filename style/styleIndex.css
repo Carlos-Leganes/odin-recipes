@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #524f4f;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    width: 250px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:visited {
+    color: black;
+}
+
+li:hover {
+    background-color: #88dd88;
+}
+
+.title {
+    background-color: #88dd88;
+    font-weight: bold;
+    display: flex;
+    width: 400px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.recipes {
+    background-color: #ffe4c4;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    background-color: #cfb595;
+    width: 300px;    
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
